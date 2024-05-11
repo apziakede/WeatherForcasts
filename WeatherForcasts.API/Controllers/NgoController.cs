@@ -71,7 +71,7 @@ namespace WeatherForcasts.API.Controllers
                     Log.Information("Requested All NGO Details => {@model}", result);
                     return Ok(result);
                 }
-            Log.Error("An error occurred => {@result}", result);
+            //Log.Error("An error occurred => {@result}", result);
             return BadRequest(result);
         }
 
